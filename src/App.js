@@ -8,9 +8,9 @@ class App extends React.Component {
     return (
       <>
         <h1>
-          welcome MUI
+          JOB PORTAL
         </h1>
-        <Button variant="contained">this is a material UI button</Button>
+        <Button variant="contained">CLICK ME</Button>
       </>
     );
   }
