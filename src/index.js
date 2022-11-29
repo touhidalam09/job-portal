@@ -1,7 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App/App";
 
-
-var mountNode = document.getElementById("app");
-ReactDOM.render(<App />, mountNode);
+const container = document.getElementById("app");
+const root = createRoot(container);
+root.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
